@@ -1,0 +1,75 @@
+*** Please update the project structure while you create a file/folder ***
+Please find below file structure under Components folder
+
+.   // root of project structure
+├── index.android.js    // entry point to source code on Android
+├── index.ios.js    // entry point to source code on iOS
+├── package.json    // compile and load modules during build
+└── src   // folder to place .js, .json or any source code file
+    ├── actions
+    │   └── Actions.js    // user actions/events
+    ├── apis    // fetch data from Agtech REST services
+    │   ├── __tests__
+    │   ├── mock-data
+    │   ├── devices.js
+    │   └── userAuth.js
+    ├── components  // presentational components
+    │   ├── __test__
+    │   ├── details
+    │   ├── drawer
+    │   ├── list
+    │   ├── map
+    │   ├── modal   // modal screens coming on top of scene rendered by navigation api
+    │   ├── navigation-bar
+    │   ├── styles
+    │   ├── Button.js
+    │   ├── DeviceList.js
+    │   ├── DeviceListScreen.js
+    │   ├── DeviceRow.js
+    │   ├── EnterAccount.js
+    │   ├── GetDevices.js
+    │   ├── Home.js
+    │   ├── NavigationRoot.js
+    │   ├── README.md
+    │   ├── RightMenu.js
+    │   └── SignIn.js
+    ├── constants   // define and export constants to required files/modules for use
+    │   ├── __test__
+    │   ├── actionRoutes.js
+    │   └── actionTypes.js
+    ├── containers    // receive application state, filter state if needed and pass state and actions needed to connected presentational component
+    │   ├── __test__
+    │   ├── DeviceContainer.js
+    │   ├── EnterAccount.js
+    │   ├── List.js
+    │   ├── ListItem.js
+    │   ├── Map.js
+    │   ├── NavigationRootContainer.js
+    │   ├── README.md
+    │   └── SignIn.js
+    ├── reducers  // combine all parts of state trees; listen to registered user actions to be dispatched, maintain and return new or current application state tree
+    │   ├── __test__
+    │   ├── deviceReducer.js
+    │   ├── index.js
+    │   ├── listReducer.js
+    │   └── navigationReducer.js
+    ├── sagas   // register to user action to be dispatched, receive data asynchronously from api and dispatch new action before or after completing asynchronous operation
+    │   ├── __tests__
+    │   ├── authenticate.js
+    │   └── getDeviceSaga.js
+    ├── selectors   // filter state in container or props in component
+    ├── settings    // ??
+    │   ├── dev
+    │   │   ├── android.json
+    │   │   ├── base.json
+    │   │   ├── ios.json
+    │   |   └── server.json
+    │   ├── prod
+    │   │   ├── android.json
+    │   │   ├── base.json
+    │   │   ├── ios.json
+    │   |   └── server.json
+    ├── store   // redux store (3 main apis: state, dispatch, subscribe)
+    │   ├── configureStore.js   // create, apply and run middlewares; create single reducer by combining all reducers and create store using reducer and middlewares
+    │   ├── setUp.js    // ??
+    └── index.js    // entry point in src folder after running index.android.js or index.ios.js at root

@@ -1,0 +1,1396 @@
+{
+  "account": [
+    {
+      "accountName": "hahn",
+      "address": {
+        "city": "california",
+        "country": "USA",
+        "state": "California",
+        "street": "Floring Road",
+        "zip": "95720"
+      },
+      "accountRef": "1234567890123",
+      "email": "hahn@gmail.com",
+      "firstName": "Hahn Noir",
+      "lastName": "Family",
+      "phoneNumber": "9835617865",
+      "ranch": {
+        "ranchId": "57a3806537e8ae6851bf5d84",
+        "address": {
+          "city": "Los Angles",
+          "country": "USA",
+          "state": "California",
+          "street": "Lincoln street",
+          "zip": "9001"
+        },
+        "devices": [
+          {
+            "type": "gateway",
+            "id": "68a3806537e8ae6851bf5d54",
+            "name": "GatewayNorth",
+            "serialNumber": "GW628493",
+            "ancestorPath": null,
+            "ancestor": null,
+            "measuredEntity": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              },
+              {
+                "id": "91z5806537e8ae6851bf3x31",
+                "name": "northblock",
+                "type": "block",
+                "level": 1
+              }
+            ],
+
+            "attributes": null,
+            "state": "active",
+            "edited": "edited",
+            "lastEditedTimestamp": 1481650889434,
+            "location": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "verificationStatus": {
+              "date": 1481650889434,
+              "status": true,
+              "verificationMessage": "Invalid Temperature"
+            },
+            "catalogId": "53m5806537e8ae6851bu7d74"
+          },
+          {
+            "type": "weatherstation",
+            "id": "86b3806537e8ae6851bf3c79",
+            "name": "weatherStationNorth",
+            "serialNumber": "WS628493",
+            "ancestorPath": "68a3806537e8ae6851bf5d54",
+            "ancestor": [
+              {
+                "id": "68a3806537e8ae6851bf5d54",
+                "name": "GatewayNorth",
+                "type": "gateway",
+                "level": 0
+              }
+            ],
+            "measuredEntity": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              },
+              {
+                "id": "91z5806537e8ae6851bf3x31",
+                "name": "northblock",
+                "type": "block",
+                "level": 1
+              }
+            ],
+
+            "attributes": null,
+            "state": "active",
+            "edited": "added",
+            "lastEditedTimestamp": null,
+            "location": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "verificationStatus": {
+              "date": 1481651328136,
+              "status": false,
+              "verificationMessage": "Invalid Temperature"
+            },
+            "catalogId": "53m5806537e8ae6851bu7d74"
+          },
+          {
+            "type": "flowmeter",
+            "id": "71y3806537e8ae6851bf6x61",
+            "name": "FlowMeterNorth",
+            "serialNumber": "FM628493",
+            "ancestorPath": "68a3806537e8ae6851bf5d54",
+            "ancestor": [
+              {
+                "id": "68a3806537e8ae6851bf5d54",
+                "name": "GatewayNorth",
+                "type": "gateway",
+                "level": 0
+              }
+            ],
+            "measuredEntity": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              },
+              {
+                "id": "91z5806537e8ae6851bf3x31",
+                "name": "northblock",
+                "type": "block",
+                "level": 1
+              }
+            ],
+
+            "attributes": [
+              {
+                "name": "Row Number",
+                "value": "18"
+              },
+              {
+                "name": "Drip count",
+                "value": "25"
+              }
+            ],
+            "state": "active",
+            "edited": "edited",
+            "lastEditedTimestamp": 1481651580998,
+            "location": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "verificationStatus": {
+              "date": 1481651580998,
+              "status": false,
+              "verificationMessage": "Invalid flow Rate"
+            },
+            "catalogId": "53m5806537e8ae6851bu7d74"
+          },
+          {
+            "type": "flowmeter",
+            "id": "37v3206537e8ae6851bf7x72",
+            "name": "FlowMeterSouth",
+            "serialNumber": "FM12345",
+            "ancestorPath": "68a3806537e8ae6851bf5d54",
+            "ancestor": [
+              {
+                "id": "68a3806537e8ae6851bf5d54",
+                "name": "GatewayNorth",
+                "type": "gateway",
+                "level": 0
+              }
+            ],
+            "measuredEntity": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              },
+              {
+                "id": "91z5806537e8ae6851bf3x31",
+                "name": "northblock",
+                "type": "block",
+                "level": 1
+              }
+            ],
+
+            "attributes": [
+              {
+                "name": "Row Number",
+                "value": "20"
+              },
+              {
+                "name": "Drip count",
+                "value": "30"
+              }
+            ],
+            "state": "active",
+            "edited": "edited",
+            "lastEditedTimestamp": 1481651580998,
+            "location": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "verificationStatus": {
+              "date": 1481651580998,
+              "status": true,
+              "verificationMessage": ""
+            },
+            "catalogId": "53m5806537e8ae6851bu7d74"
+          }
+        ],
+        "measuredEntity": [
+          {
+            "type": "vineyard",
+            "name": "HahnVines",
+            "ancestor": null,
+            "id": "24b5806537e8ae6851bf3c65",
+            "edited": "edited",
+            "lastEditedTimestamp": 1481646934993,
+            "state": "active",
+            "measuringDevices": [
+              {
+                "deviceType": "Gateway",
+                "deviceId": "68a3806537e8ae6851bf5d54"
+              },
+              {
+                "deviceType": "WeatherStation",
+                "deviceId": "86b3806537e8ae6851bf3c79"
+              }
+            ],
+            "measuredEntityProperties": null,
+            "measuredEntityObjectives": [
+              {
+                "name": "premiumRedWines",
+                "value": "true"
+              },
+              {
+                "name": "whiteWines",
+                "value": "true"
+              },
+              {
+                "name": "fruityWines",
+                "value": "false"
+              },
+              {
+                "name": "youngVineyard",
+                "value": "false"
+              }
+            ],
+            "information": null,
+            "annual": [
+              {
+                "germinationDate": 1481648066030,
+                "canopyHeight": "123",
+                "canopyWidth": "23",
+                "canopyPorosity": "34",
+                "coverCrop": "dres",
+                "coverCropWidthStrip": "123edc",
+                "weedingOrSeneSceneDate": 1481649066030
+              }
+            ],
+            "keyDates": null,
+            "measuredEntityLocation": {
+              "lat": "41.5",
+              "long": "87.5",
+              "elevation": "23.6"
+            },
+            "measuredEntityBoundaries": [
+              {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            {
+              "lat": "51.5",
+              "long": "67.5",
+              "elevation": "22.6"
+            },
+            {
+              "lat": "61.5",
+              "long": "57.5",
+              "elevation": "21.6"
+            },
+            {
+              "lat": "71.5",
+              "long": "47.5",
+              "elevation": "20.6"
+            },
+            {
+              "lat": "81.5",
+              "long": "37.5",
+              "elevation": "19.6"
+            }
+            ]
+          },
+          {
+            "type": "block",
+            "name": "northblock",
+            "ancestor": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              }
+            ],
+            "id": "91z5806537e8ae6851bf3x31",
+            "edited": "added",
+            "lastEditedTimestamp": null,
+            "state": "active",
+            "measuringDevices": [
+              {
+                "deviceType": "flowMeter",
+                "deviceId": "71y3806537e8ae6851bf6x61"
+              },
+              {
+                "deviceType": "flowMeter",
+                "deviceId": "37v3206537e8ae6851bf7x72"
+              }
+            ],
+            "measuredEntityProperties": [
+              {
+                "name": "Area(Acres)",
+                "value": "12"
+              },
+              {
+                "name": "GrapeVariety",
+                "value": "whiteWine"
+              },
+              {
+                "name": "Row Orientation",
+                "value": "South East"
+              },
+              {
+                "name": "Row Spacing(ft)",
+                "value": "2"
+              },
+              {
+                "name": "Inter Row Spacing(ft)",
+                "value": "1"
+              },
+              {
+                "name": "Drip emitter Spacing",
+                "value": "1.5"
+              },
+              {
+                "name": "Drip emitter flow rate",
+                "value": "60"
+              }
+
+            ],
+            "measuredEntityObjectives": [
+              {
+                "name": "premiumRedWines",
+                "value": "true"
+              },
+              {
+                "name": "whiteWines",
+                "value": "false"
+              },
+              {
+                "name": "fruityWines",
+                "value": "false"
+              },
+              {
+                "name": "youngVineyard",
+                "value": "false"
+              }
+            ],
+            "information": [
+              {
+                "soilAt": "1",
+                "clay": "30",
+                "sand": "60",
+                "stone": "10"
+              },
+              {
+                "soilAt": "2",
+                "clay": "40",
+                "sand": "50",
+                "stone": "10"
+              },
+              {
+                "soilAt": "3",
+                "clay": "45",
+                "sand": "45",
+                "stone": "10"
+              }
+            ],
+            "annual": [
+              {
+                "germinationDate": 1481648066030,
+                "canopyHeight": "123",
+                "canopyWidth": "23",
+                "canopyPorosity": "34",
+                "coverCrop": "dres",
+                "coverCropWidthStrip": "123edc",
+                "weedingOrSeneSceneDate": 1481649066030
+              }
+            ],
+            "keyDates": [
+              {
+                "name": "budburst",
+                "value": 1481649066030
+              },
+              {
+                "name": "Full Bloom",
+                "value": 1481649066030
+              },
+              {
+                "name": "Veraison",
+                "value": 1481649066030
+              },
+              {
+                "name": "Harvest",
+                "value": 1481649066030
+              },
+              {
+                "name": "Leaf Fall",
+                "value": 1481649066030
+              }
+            ],
+            "measuredEntityLocation": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "measuredEntityBoundaries": [
+            {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            {
+              "lat": "51.5",
+              "long": "67.5",
+              "elevation": "22.6"
+            },
+            {
+              "lat": "61.5",
+              "long": "57.5",
+              "elevation": "21.6"
+            },
+            {
+              "lat": "71.5",
+              "long": "47.5",
+              "elevation": "20.6"
+            },
+            {
+              "lat": "81.5",
+              "long": "37.5",
+              "elevation": "19.6"
+            }
+            ]
+          }
+
+        ]
+      }
+    },
+    {
+      "accountName": "hann agri",
+      "address": {
+        "city": "sanjose",
+        "country": "USA",
+        "state": "California",
+        "street": "downtown",
+        "zip": "95126"
+      },
+      "accountRef": "1234567890124",
+      "email": "hahnagri@gmail.com",
+      "firstName": "Hahn Agri",
+      "lastName": "Wines",
+      "phoneNumber": "9835617863",
+      "ranch": {
+        "ranchId": "57a3806537e8ae6851bf5d64",
+        "address": {
+          "city": "Los Angles",
+          "country": "USA",
+          "state": "California",
+          "street": "Mass Avenue",
+          "zip": "9003"
+        },
+        "devices": [
+          {
+            "type": "gateway",
+            "id": "68a3806537e8ae6851bf5d54",
+            "name": "GatewayNorth",
+            "serialNumber": "GW628493",
+            "ancestorPath": null,
+            "ancestor": null,
+            "measuredEntity": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              },
+              {
+                "id": "91z5806537e8ae6851bf3x31",
+                "name": "northblock",
+                "type": "block",
+                "level": 1
+              }
+            ],
+
+            "attributes": null,
+            "state": "active",
+            "edited": "edited",
+            "lastEditedTimestamp": 1481650889434,
+            "location": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "verificationStatus": {
+              "date": 1481650889434,
+              "status": true,
+              "verificationMessage": "Invalid Temperature"
+            },
+            "catalogId": "53m5806537e8ae6851bu7d74"
+          },
+          {
+            "type": "weatherstation",
+            "id": "86b3806537e8ae6851bf3c79",
+            "name": "weatherStationNorth",
+            "serialNumber": "WS628493",
+            "ancestorPath": "68a3806537e8ae6851bf5d54",
+            "ancestor": [
+              {
+                "id": "68a3806537e8ae6851bf5d54",
+                "name": "GatewayNorth",
+                "type": "gateway",
+                "level": 0
+              }
+            ],
+            "measuredEntity": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              },
+              {
+                "id": "91z5806537e8ae6851bf3x31",
+                "name": "northblock",
+                "type": "block",
+                "level": 1
+              }
+            ],
+
+            "attributes": null,
+            "state": "active",
+            "edited": "added",
+            "lastEditedTimestamp": null,
+            "location": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "verificationStatus": {
+              "date": 1481651328136,
+              "status": false,
+              "verificationMessage": "Invalid Temperature"
+            },
+            "catalogId": "53m5806537e8ae6851bu3274"
+          },
+          {
+            "type": "flowmeter",
+            "id": "71y3806537e8ae6851bf6x61",
+            "name": "FlowMeterNorth",
+            "serialNumber": "FM628493",
+            "ancestorPath": "68a3806537e8ae6851bf5d54",
+            "ancestor": [
+              {
+                "id": "68a3806537e8ae6851bf5d54",
+                "name": "GatewayNorth",
+                "type": "gateway",
+                "level": 0
+              }
+            ],
+            "measuredEntity": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              },
+              {
+                "id": "91z5806537e8ae6851bf3x31",
+                "name": "northblock",
+                "type": "block",
+                "level": 1
+              }
+            ],
+
+            "attributes": [
+              {
+                "name": "Row Number",
+                "value": "18"
+              },
+              {
+                "name": "Drip count",
+                "value": "25"
+              }
+            ],
+            "state": "active",
+            "edited": "edited",
+            "lastEditedTimestamp": 1481651580998,
+            "location": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "verificationStatus": {
+              "date": 1481651580998,
+              "status": false,
+              "verificationMessage": "Invalid flow Rate"
+            },
+            "catalogId": "53m5806537e8ae6851bu7d74"
+          },
+          {
+            "type": "flowmeter",
+            "id": "37v3206537e8ae6851bf7x72",
+            "name": "FlowMeterSouth",
+            "serialNumber": "FM12345",
+            "ancestorPath": "68a3806537e8ae6851bf5d54",
+            "ancestor": [
+              {
+                "id": "68a3806537e8ae6851bf5d54",
+                "name": "GatewayNorth",
+                "type": "gateway",
+                "level": 0
+              }
+            ],
+            "measuredEntity": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              },
+              {
+                "id": "91z5806537e8ae6851bf3x31",
+                "name": "northblock",
+                "type": "block",
+                "level": 1
+              }
+            ],
+
+            "attributes": [
+              {
+                "name": "Row Number",
+                "value": "20"
+              },
+              {
+                "name": "Drip count",
+                "value": "30"
+              }
+            ],
+            "state": "active",
+            "edited": "edited",
+            "lastEditedTimestamp": 1481651580998,
+            "location": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "verificationStatus": {
+              "date": 1481651580998,
+              "status": true,
+              "verificationMessage": ""
+            },
+            "catalogId": "53m5806537e8ae6851bu7d74"
+          }
+        ],
+        "measuredEntity": [
+          {
+            "type": "vineyard",
+            "name": "HahnVines",
+            "ancestor": null,
+            "id": "24b5806537e8ae6851bf3c65",
+            "edited": "edited",
+            "lastEditedTimestamp": 1481646934993,
+            "state": "active",
+            "measuringDevices": [
+              {
+                "deviceType": "Gateway",
+                "deviceId": "68a3806537e8ae6851bf5d54"
+              },
+              {
+                "deviceType": "WeatherStation",
+                "deviceId": "86b3806537e8ae6851bf3c79"
+              }
+            ],
+            "measuredEntityProperties": null,
+            "measuredEntityObjectives": [
+              {
+                "name": "premiumRedWines",
+                "value": "true"
+              },
+              {
+                "name": "whiteWines",
+                "value": "true"
+              },
+              {
+                "name": "fruityWines",
+                "value": "false"
+              },
+              {
+                "name": "youngVineyard",
+                "value": "false"
+              }
+            ],
+            "information": null,
+            "annual": [
+              {
+                "germinationDate": 1481648066030,
+                "canopyHeight": "123",
+                "canopyWidth": "23",
+                "canopyPorosity": "34",
+                "coverCrop": "dres",
+                "coverCropWidthStrip": "123edc",
+                "weedingOrSeneSceneDate": 1481649066030
+              }
+            ],
+            "keyDates": null,
+            "measuredEntityLocation": {
+              "lat": "41.5",
+              "long": "87.5",
+              "elevation": "23.6"
+            },
+            "measuredEntityBoundaries": [
+              {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            {
+              "lat": "51.5",
+              "long": "67.5",
+              "elevation": "22.6"
+            },
+            {
+              "lat": "61.5",
+              "long": "57.5",
+              "elevation": "21.6"
+            },
+            {
+              "lat": "71.5",
+              "long": "47.5",
+              "elevation": "20.6"
+            },
+            {
+              "lat": "81.5",
+              "long": "37.5",
+              "elevation": "19.6"
+            }
+            ]
+          },
+          {
+            "type": "block",
+            "name": "northblock",
+            "ancestor": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              }
+            ],
+            "id": "91z5806537e8ae6851bf3x31",
+            "edited": "added",
+            "lastEditedTimestamp": null,
+            "state": "active",
+            "measuringDevices": [
+              {
+                "deviceType": "flowMeter",
+                "deviceId": "71y3806537e8ae6851bf6x61"
+              },
+              {
+                "deviceType": "flowMeter",
+                "deviceId": "37v3206537e8ae6851bf7x72"
+              }
+            ],
+            "measuredEntityProperties": [
+              {
+                "name": "Area(Acres)",
+                "value": "12"
+              },
+              {
+                "name": "GrapeVariety",
+                "value": "whiteWine"
+              },
+              {
+                "name": "Row Orientation",
+                "value": "South East"
+              },
+              {
+                "name": "Row Spacing(ft)",
+                "value": "2"
+              },
+              {
+                "name": "Inter Row Spacing(ft)",
+                "value": "1"
+              },
+              {
+                "name": "Drip emitter Spacing",
+                "value": "1.5"
+              },
+              {
+                "name": "Drip emitter flow rate",
+                "value": "60"
+              }
+
+            ],
+            "measuredEntityObjectives": [
+              {
+                "name": "premiumRedWines",
+                "value": "false"
+              },
+              {
+                "name": "whiteWines",
+                "value": "true"
+              },
+              {
+                "name": "fruityWines",
+                "value": "true"
+              },
+              {
+                "name": "youngVineyard",
+                "value": "true"
+              }
+            ],
+            "information": [
+              {
+                "soilAt": "1",
+                "clay": "30",
+                "sand": "70",
+                "stone": "10"
+              },
+              {
+                "soilAt": "2",
+                "clay": "40",
+                "sand": "60",
+                "stone": "10"
+              },
+              {
+                "soilAt": "3",
+                "clay": "45",
+                "sand": "45",
+                "stone": "10"
+              }
+            ],
+            "annual": [
+              {
+                "germinationDate": 1481648066030,
+                "canopyHeight": "123",
+                "canopyWidth": "23",
+                "canopyPorosity": "34",
+                "coverCrop": "dres",
+                "coverCropWidthStrip": "123edc",
+                "weedingOrSeneSceneDate": 1481649066030
+              }
+            ],
+            "keyDates": [
+              {
+                "name": "budburst",
+                "value": 1481649066030
+              },
+              {
+                "name": "Full Bloom",
+                "value": 1481649066030
+              },
+              {
+                "name": "Veraison",
+                "value": 1481649066030
+              },
+              {
+                "name": "Harvest",
+                "value": 1481649066030
+              },
+              {
+                "name": "Leaf Fall",
+                "value": 1481649066030
+              }
+            ],
+            "measuredEntityLocation": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "measuredEntityBoundaries": [
+            {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            {
+              "lat": "51.5",
+              "long": "67.5",
+              "elevation": "22.6"
+            },
+            {
+              "lat": "61.5",
+              "long": "57.5",
+              "elevation": "21.6"
+            },
+            {
+              "lat": "71.5",
+              "long": "47.5",
+              "elevation": "20.6"
+            },
+            {
+              "lat": "81.5",
+              "long": "37.5",
+              "elevation": "19.6"
+            }
+            ]
+          }
+
+        ]
+      }
+    },
+    {
+      "accountName": "Verizon",
+      "address": {
+        "city": "Waltham",
+        "country": "USA",
+        "state": "MA",
+        "street": "Sylvan Road",
+        "zip": "02452"
+      },
+      "accountRef": "123456743490123",
+      "email": "verizon@gmail.com",
+      "firstName": "Abbas",
+      "lastName": "Bagsara",
+      "phoneNumber": "9835613456",
+      "ranch": {
+        "ranchId": "37a3806537e8ae4551bf5d84",
+        "address": {
+          "city": "Dublin",
+          "country": "USA",
+          "state": "California",
+          "street": "Belmont Road",
+          "zip": "43017"
+        },
+        "devices": [
+          {
+            "type": "gateway",
+            "id": "68a3806537e8ae6851bf5d54",
+            "name": "GatewayNorth",
+            "serialNumber": "GW628493",
+            "ancestorPath": null,
+            "ancestor": null,
+            "measuredEntity": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              },
+              {
+                "id": "91z5806537e8ae6851bf3x31",
+                "name": "northblock",
+                "type": "block",
+                "level": 1
+              }
+            ],
+
+            "attributes": null,
+            "state": "active",
+            "edited": "edited",
+            "lastEditedTimestamp": 1481650889434,
+            "location": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "verificationStatus": {
+              "date": 1481650889434,
+              "status": true,
+              "verificationMessage": "Invalid Temperature"
+            },
+            "catalogId": "53m5806537e8ae6851bu7d74"
+          },
+          {
+            "type": "weatherstation",
+            "id": "86b3806537e8ae6851bf3c79",
+            "name": "weatherStationNorth",
+            "serialNumber": "WS628493",
+            "ancestorPath": "68a3806537e8ae6851bf5d54",
+            "ancestor": [
+              {
+                "id": "68a3806537e8ae6851bf5d54",
+                "name": "GatewayNorth",
+                "type": "gateway",
+                "level": 0
+              }
+            ],
+            "measuredEntity": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              },
+              {
+                "id": "91z5806537e8ae6851bf3x31",
+                "name": "northblock",
+                "type": "block",
+                "level": 1
+              }
+            ],
+
+            "attributes": null,
+            "state": "active",
+            "edited": "added",
+            "lastEditedTimestamp": null,
+            "location": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "verificationStatus": {
+              "date": 1481651328136,
+              "status": false,
+              "verificationMessage": "Invalid Temperature"
+            },
+            "catalogId": "53m5806537e8ae6851bu7d74"
+          },
+          {
+            "type": "flowmeter",
+            "id": "71y3806537e8ae6851bf6x61",
+            "name": "FlowMeterNorth",
+            "serialNumber": "FM628493",
+            "ancestorPath": "68a3806537e8ae6851bf5d54",
+            "ancestor": [
+              {
+                "id": "68a3806537e8ae6851bf5d54",
+                "name": "GatewayNorth",
+                "type": "gateway",
+                "level": 0
+              }
+            ],
+            "measuredEntity": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              },
+              {
+                "id": "91z5806537e8ae6851bf3x31",
+                "name": "northblock",
+                "type": "block",
+                "level": 1
+              }
+            ],
+
+            "attributes": [
+              {
+                "name": "Row Number",
+                "value": "18"
+              },
+              {
+                "name": "Drip count",
+                "value": "25"
+              }
+            ],
+            "state": "active",
+            "edited": "edited",
+            "lastEditedTimestamp": 1481651580998,
+            "location": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "verificationStatus": {
+              "date": 1481651580998,
+              "status": false,
+              "verificationMessage": "Invalid flow Rate"
+            },
+            "catalogId": "53m5806537e8ae6851bu7d74"
+          },
+          {
+            "type": "flowmeter",
+            "id": "37v3206537e8ae6851bf7x72",
+            "name": "FlowMeterSouth",
+            "serialNumber": "FM12345",
+            "ancestorPath": "68a3806537e8ae6851bf5d54",
+            "ancestor": [
+              {
+                "id": "68a3806537e8ae6851bf5d54",
+                "name": "GatewayNorth",
+                "type": "gateway",
+                "level": 0
+              }
+            ],
+            "measuredEntity": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              },
+              {
+                "id": "91z5806537e8ae6851bf3x31",
+                "name": "northblock",
+                "type": "block",
+                "level": 1
+              }
+            ],
+
+            "attributes": [
+              {
+                "name": "Row Number",
+                "value": "20"
+              },
+              {
+                "name": "Drip count",
+                "value": "30"
+              }
+            ],
+            "state": "active",
+            "edited": "edited",
+            "lastEditedTimestamp": 1481651580998,
+            "location": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "verificationStatus": {
+              "date": 1481651580998,
+              "status": true,
+              "verificationMessage": ""
+            },
+            "catalogId": "53m5806537e8ae6851bu7d74"
+          }
+        ],
+        "measuredEntity": [
+          {
+            "type": "vineyard",
+            "name": "HahnVines",
+            "ancestor": null,
+            "id": "24b5806537e8ae6851bf3c65",
+            "edited": "edited",
+            "lastEditedTimestamp": 1481646934993,
+            "state": "active",
+            "measuringDevices": [
+              {
+                "deviceType": "Gateway",
+                "deviceId": "68a3806537e8ae6851bf5d54"
+              },
+              {
+                "deviceType": "WeatherStation",
+                "deviceId": "86b3806537e8ae6851bf3c79"
+              }
+            ],
+            "measuredEntityProperties": null,
+            "measuredEntityObjectives": [
+              {
+                "name": "premiumRedWines",
+                "value": "true"
+              },
+              {
+                "name": "whiteWines",
+                "value": "true"
+              },
+              {
+                "name": "fruityWines",
+                "value": "false"
+              },
+              {
+                "name": "youngVineyard",
+                "value": "false"
+              }
+            ],
+            "information": null,
+            "annual": [
+              {
+                "germinationDate": 1481648066030,
+                "canopyHeight": "123",
+                "canopyWidth": "23",
+                "canopyPorosity": "34",
+                "coverCrop": "dres",
+                "coverCropWidthStrip": "123edc",
+                "weedingOrSeneSceneDate": 1481649066030
+              }
+            ],
+            "keyDates": null,
+            "measuredEntityLocation": {
+              "lat": "41.5",
+              "long": "87.5",
+              "elevation": "23.6"
+            },
+            "measuredEntityBoundaries": [
+              {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            {
+              "lat": "51.5",
+              "long": "67.5",
+              "elevation": "22.6"
+            },
+            {
+              "lat": "61.5",
+              "long": "57.5",
+              "elevation": "21.6"
+            },
+            {
+              "lat": "71.5",
+              "long": "47.5",
+              "elevation": "20.6"
+            },
+            {
+              "lat": "81.5",
+              "long": "37.5",
+              "elevation": "19.6"
+            }
+            ]
+          },
+          {
+            "type": "block",
+            "name": "northblock",
+            "ancestor": [
+              {
+                "id": "24b5806537e8ae6851bf3c65",
+                "name": "HahnVines",
+                "type": "vineyard",
+                "level": 0
+              }
+            ],
+            "id": "91z5806537e8ae6851bf3x31",
+            "edited": "added",
+            "lastEditedTimestamp": null,
+            "state": "active",
+            "measuringDevices": [
+              {
+                "deviceType": "flowMeter",
+                "deviceId": "71y3806537e8ae6851bf6x61"
+              },
+              {
+                "deviceType": "flowMeter",
+                "deviceId": "37v3206537e8ae6851bf7x72"
+              }
+            ],
+            "measuredEntityProperties": [
+              {
+                "name": "Area(Acres)",
+                "value": "12"
+              },
+              {
+                "name": "GrapeVariety",
+                "value": "whiteWine"
+              },
+              {
+                "name": "Row Orientation",
+                "value": "South East"
+              },
+              {
+                "name": "Row Spacing(ft)",
+                "value": "2"
+              },
+              {
+                "name": "Inter Row Spacing(ft)",
+                "value": "1"
+              },
+              {
+                "name": "Drip emitter Spacing",
+                "value": "1.5"
+              },
+              {
+                "name": "Drip emitter flow rate",
+                "value": "60"
+              }
+
+            ],
+            "measuredEntityObjectives": [
+              {
+                "name": "premiumRedWines",
+                "value": "true"
+              },
+              {
+                "name": "whiteWines",
+                "value": "false"
+              },
+              {
+                "name": "fruityWines",
+                "value": "false"
+              },
+              {
+                "name": "youngVineyard",
+                "value": "false"
+              }
+            ],
+            "information": [
+              {
+                "soilAt": "1",
+                "clay": "30",
+                "sand": "60",
+                "stone": "10"
+              },
+              {
+                "soilAt": "2",
+                "clay": "40",
+                "sand": "50",
+                "stone": "10"
+              },
+              {
+                "soilAt": "3",
+                "clay": "45",
+                "sand": "45",
+                "stone": "10"
+              }
+            ],
+            "annual": [
+              {
+                "germinationDate": 1481648066030,
+                "canopyHeight": "123",
+                "canopyWidth": "23",
+                "canopyPorosity": "34",
+                "coverCrop": "dres",
+                "coverCropWidthStrip": "123edc",
+                "weedingOrSeneSceneDate": 1481649066030
+              }
+            ],
+            "keyDates": [
+              {
+                "name": "budburst",
+                "value": 1481649066030
+              },
+              {
+                "name": "Full Bloom",
+                "value": 1481649066030
+              },
+              {
+                "name": "Veraison",
+                "value": 1481649066030
+              },
+              {
+                "name": "Harvest",
+                "value": 1481649066030
+              },
+              {
+                "name": "Leaf Fall",
+                "value": 1481649066030
+              }
+            ],
+            "measuredEntityLocation": {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            "measuredEntityBoundaries": [
+            {
+              "lat": "41.5",
+              "long": "77.5",
+              "elevation": "23.6"
+            },
+            {
+              "lat": "51.5",
+              "long": "67.5",
+              "elevation": "22.6"
+            },
+            {
+              "lat": "61.5",
+              "long": "57.5",
+              "elevation": "21.6"
+            },
+            {
+              "lat": "71.5",
+              "long": "47.5",
+              "elevation": "20.6"
+            },
+            {
+              "lat": "81.5",
+              "long": "37.5",
+              "elevation": "19.6"
+            }
+            ]
+          }
+
+        ]
+      }
+    }
+  ]
+}
